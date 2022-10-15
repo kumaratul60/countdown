@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: sans-serif;
+  position: relative;
+  display: grid;
+  place-items: center;
+  /* margin:20%; */
+  border: 1px solid black;
+  margin: 20px;
+}
+
+input {
+  align-self: center;
+  justify-self: center;
+  width: 50%;
+  height: 30px;
+  border: 1px solid green;
+  outline: none;
+  border-radius: 0.25rem;
+  margin: 10px;
+  padding: 5px;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  margin: 10px;
+  width: 80px;
+  height: 25px;
+  border: 0;
+  color: blue;
+  background-color: khaki;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.time {
+  border: 1px solid #000000;
+  border-radius: 0.25rem;
+  background-color: blanchedalmond;
+  padding: 5px;
+  margin: 20px;
+}
